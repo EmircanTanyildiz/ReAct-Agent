@@ -8,7 +8,7 @@ load_dotenv()
 @tool
 def triple(num: float) -> float:
     """Return three times the input number."""
-    return float(num) * 3
+    return float(num) * 3.00
 
 tools = [TavilySearch(max_results=1), triple]
 
